@@ -1,9 +1,6 @@
 # Python script for downloading images
 download_images.py
 
-# Downloaded profile images directory
-profiles/
-
 # Python cache files
 __pycache__/
 *.pyc
