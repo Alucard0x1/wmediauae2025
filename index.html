@@ -972,20 +972,18 @@
         function loadAvatars() {
             // Get first 5 profiles for avatars
             const avatarProfiles = nomineesData.slice(0, 5);
-            
             // Load avatars for CTA section
             const ctaAvatars = document.getElementById('cta-avatars');
             if (ctaAvatars) {
                 ctaAvatars.innerHTML = avatarProfiles.map(profile => 
-                    `<img src="${profile.image}" alt="${profile.name}" class="w-12 h-12 rounded-full border-3 border-gray-800 object-cover">`
+                    `<img src="${profile.image}" alt="${profile.name}" class="w-12 h-12 rounded-full border-3 border-gray-800 object-cover bg-gray-900" onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(profile.name)}&background=23272a&color=eab308&size=96'">`
                 ).join('') + '<div class="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full border-3 border-gray-800 flex items-center justify-center text-xs font-bold text-black">+</div>';
             }
-            
             // Load avatars for Newsletter section
             const newsletterAvatars = document.getElementById('newsletter-avatars');
             if (newsletterAvatars) {
                 newsletterAvatars.innerHTML = avatarProfiles.slice(0, 3).map(profile => 
-                    `<img src="${profile.image}" alt="${profile.name}" class="w-10 h-10 rounded-full border-2 border-white object-cover">`
+                    `<img src="${profile.image}" alt="${profile.name}" class="w-10 h-10 rounded-full border-2 border-white object-cover bg-gray-900" onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(profile.name)}&background=23272a&color=eab308&size=80'">`
                 ).join('');
             }
         }
