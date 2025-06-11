@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DT100 – Digital Transformation Summit UAE 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            100: '#e6f5ff',
+                            200: '#b3e6ff',
+                            300: '#80d6ff',
+                            400: '#4dc6ff',
+                            500: '#0095f2',
+                            600: '#007acc',
+                            700: '#005fa6',
+                            800: '#00447f',
+                            900: '#002959',
+                        },
+                        secondary: {
+                            100: '#fdf2f6',
+                            200: '#f9dbe7',
+                            300: '#f5c5d8',
+                            400: '#f1afc9',
+                            500: '#d84a86',
+                            600: '#b83d72',
+                            700: '#97305e',
+                            800: '#76224a',
+                            900: '#551536',
+                        },
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #002959 0%, #0095f2 100%);
+        }
+        .card {
+            transition: all 0.3s ease;
+            perspective: 1000px;
+        }
+        .card-inner {
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .card:hover .card-inner {
+            transform: rotateY(10deg) scale(1.03);
+        }
+        .leader-card {
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .pattern {
+            background-image: radial-gradient(#e2e8f0 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Floating Summit Badge -->
+    <div class="fixed top-6 right-6 z-50">
+        <div class="bg-white rounded-full py-2 px-4 shadow-lg flex items-center">
+            <span class="bg-primary-600 text-white rounded-full h-8 w-8 flex items-center justify-center mr-2 font-bold">DT</span>
+            <span class="font-bold text-primary-800">Digital Transformation Summit</span>
+        </div>
+    </div>
+
+    <!-- Header/Navigation -->
+    <header class="gradient-bg text-white sticky top-0 z-40 shadow-md">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center py-4">
+                <div>
+                    <h1 class="text-2xl font-bold">DT<span class="text-secondary-500">100</span></h1>
+                    <p class="text-sm opacity-80">UAE 2026</p>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="hover:text-secondary-300 transition">Home</a>
+                    <a href="#leaders" class="hover:text-secondary-300 transition">Leaders</a>
+                    <a href="#" class="hover:text-secondary-300 transition">Agenda</a>
+                    <a href="#" class="hover:text-secondary-300 transition">Partners</a>
+                    <button class="bg-secondary-500 hover:bg-secondary-600 text-white px-4 py-2 rounded-full font-medium transition">Register Now</button>
+                </div>
+                <button class="md:hidden">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white relative overflow-hidden">
+        <div class="pattern absolute inset-0 opacity-5"></div>
+        <div class="container mx-auto px-4 py-20 md:py-32 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-block bg-white bg-opacity-20 backdrop-blur-lg rounded-full px-4 py-1 mb-4">
+                    <span class="text-sm font-medium">DECEMBER 2026</span>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">DT100 – Digital Transformation Summit UAE 2026</h1>
+                <p class="text-xl md:text-2xl opacity-90 mb-8">Showcasing the visionaries shaping UAE's digital future</p>
+                <div class="flex flex-wrap gap-4">
+                    <button class="bg-secondary-500 hover:bg-secondary-600 text-white px-6 py-3 rounded-full font-medium transition flex items-center">
+                        Explore Leaders <i class="fas fa-arrow-down ml-2"></i>
+                    </button>
+                    <button class="bg-white bg-opacity-20 hover:bg-opacity-30 text-white px-6 py-3 rounded-full font-medium transition backdrop-blur flex items-center">
+                        <i class="fas fa-play-circle mr-2"></i> Watch Highlight Video
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 w-full">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f9fafb" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,197.3C384,213,480,203,576,170.7C672,139,768,85,864,74.7C960,64,1056,96,1152,106.7C1248,117,1344,107,1392,101.3L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">100 TECH LEADERS TO WATCH IN 2025</h2>
+                <div class="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Discover the innovators, disruptors and strategic minds driving digital transformation across the UAE's most influential organizations.
+                    These leaders are building the technological backbone for the nation's future growth and global competitiveness.
+                </p>
+            </div>
+            
+            <div class="bg-blue-50 rounded-2xl p-8 mb-16 flex flex-col md:flex-row items-center">
+                <div class="md:w-2/3 md:pr-8 mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Shaping the Future of Technology in the UAE</h3>
+                    <p class="text-gray-700 mb-4">
+                        The DT100 recognizes exceptional technology, data and digital innovation leaders across diverse sectors including finance, healthcare, 
+                        government, education, hospitality and energy. These individuals are driving substantial change through strategic vision and execution excellence.
+                    </p>
+                    <div class="flex items-center text-gray-700">
+                        <i class="fas fa-calendar-check text-primary-500 mr-2"></i>
+                        <span>December 10-12, 2026</span>
+                    </div>
+                </div>
+                <div class="md:w-1/3 flex justify-center">
+                    <div class="bg-gray-200 border-2 border-dashed rounded-xl w-64 h-64" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaders Grid -->
+    <section id="leaders" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet the DT100 Leaders</h2>
+                <div class="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-8">
+                    Browse through the exceptional technology leaders who are defining the digital landscape across the UAE
+                </p>
+                
+                <!-- Filters -->
+                <div class="flex flex-wrap justify-center gap-3 max-w-2xl mx-auto mb-10">
+                    <button class="bg-primary-500 text-white px-4 py-2 rounded-full text-sm font-medium">All Sectors</button>
+                    <button class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border hover:bg-gray-100">Government</button>
+                    <button class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border hover:bg-gray-100">Finance</button>
+                    <button class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border hover:bg-gray-100">Healthcare</button>
+                    <button class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border hover:bg-gray-100">Education</button>
+                    <button class="bg-white text-gray-700 px-4 py-2 rounded-full text-sm font-medium border hover:bg-gray-100">Hospitality</button>
+                </div>
+                
+                <!-- Search -->
+                <div class="max-w-md mx-auto mb-12">
+                    <div class="relative">
+                        <input type="text" placeholder="Search leaders by name, organization or role..." class="w-full py-3 px-4 pr-10 rounded-full border shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-300">
+                        <i class="fas fa-search absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Leaders Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Leader Card Template (repeated for each leader) -->
+                <div class="card animate-fade-in">
+                    <div class="leader-card bg-white rounded-2xl overflow-hidden h-full flex flex-col">
+                        <div class="p-5 flex justify-center">
+                            <div class="bg-gray-200 border-2 border-dashed rounded-full w-40 h-40" />
+                        </div>
+                        <div class="p-6 text-center flex-grow">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Ali Alhammadi</h3>
+                            <p class="text-gray-600 mb-1 font-medium">Analytics & Data Science Section Head</p>
+                            <p class="text-gray-500 text-sm">Department of Government Enablement</p>
+                        </div>
+                        <div class="px-6 py-4 bg-gray-50">
+                            <div class="flex justify-center space-x-4">
+                                <button class="text-gray-500 hover:text-primary-500 transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                                <button class="text-gray-500 hover:text-blue-500 transition">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button class="text-gray-500 hover:text-pink-500 transition">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Placeholder for additional 91 leaders -->
+                <div class="card animate-fade-in">
+                    <div class="leader-card bg-white rounded-2xl overflow-hidden h-full flex flex-col">
+                        <div class="p-5 flex justify-center">
+                            <div class="bg-gray-200 border-2 border-dashed rounded-full w-40 h-40" />
+                        </div>
+                        <div class="p-6 text-center flex-grow">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">George Yacoub</h3>
+                            <p class="text-gray-600 mb-1 font-medium">Chief Digital and Information Officer</p>
+                            <p class="text-gray-500 text-sm">Department of Health Abu Dhabi</p>
+                        </div>
+                        <div class="px-6 py-4 bg-gray-50">
+                            <div class="flex justify-center space-x-4">
+                                <button class="text-gray-500 hover:text-primary-500 transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                                <button class="text-gray-500 hover:text-blue-500 transition">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button class="text-gray-500 hover:text-pink-500 transition">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Placeholder for additional leaders -->
+                <div class="card animate-fade-in">
+                    <div class="leader-card bg-white rounded-2xl overflow-hidden h-full flex flex-col">
+                        <div class="p-5 flex justify-center">
+                            <div class="bg-gray-200 border-2 border-dashed rounded-full w-40 h-40" />
+                        </div>
+                        <div class="p-6 text-center flex-grow">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Walid Elsahar</h3>
+                            <p class="text-gray-600 mb-1 font-medium">Director Of Information Technology</p>
+                            <p class="text-gray-500 text-sm">Ras Al Khaimah Economic Zone (RAKEZ)</p>
+                        </div>
+                        <div class="px-6 py-4 bg-gray-50">
+                            <div class="flex justify-center space-x-4">
+                                <button class="text-gray-500 hover:text-primary-500 transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                                <button class="text-gray-500 hover:text-blue-500 transition">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+                                <button class="text-gray-500 hover:text-pink-500 transition">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Repeat similar structure for remaining leaders -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="mt-16 flex justify-center">
+                <nav class="flex items-center gap-1">
+                    <button class="w-10 h-10 rounded-full bg-primary-500 text-white flex items-center justify-center">
+                        1
+                    </button>
+                    <button class="w-10 h-10 rounded-full hover:bg-gray-200 flex items-center justify-center">
+                        2
+                    </button>
+                    <button class="w-10 h-10 rounded-full hover:bg-gray-200 flex items-center justify-center">
+                        3
+                    </button>
+                    <button class="px-2">...</button>
+                    <button class="w-10 h-10 rounded-full hover:bg-gray-200 flex items-center justify-center">
+                        9
+                    </button>
+                    <button class="w-10 h-10 rounded-full hover:bg-gray-200 flex items-center justify-center">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- Summit Info -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Digital Transformation Summit UAE 2026</h2>
+                <div class="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Join us for the region's premier event exploring digital transformation strategies, innovation and leadership
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row bg-gradient-to-r from-primary-500 to-primary-800 rounded-2xl overflow-hidden shadow-xl">
+                    <div class="md:w-1/2 p-8 md:p-12 text-white">
+                        <h3 class="text-2xl font-bold mb-4">Event Details</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-calendar-day text-secondary-500 mt-1 mr-3"></i>
+                                <div>
+                                    <p class="font-medium">Dates</p>
+                                    <p>December 10-12, 2026</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-secondary-500 mt-1 mr-3"></i>
+                                <div>
+                                    <p class="font-medium">Venue</p>
+                                    <p>Dubai World Trade Centre, UAE</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-users text-secondary-500 mt-1 mr-3"></i>
+                                <div>
+                                    <p class="font-medium">Attendees</p>
+                                    <p>2,500+ technology leaders and innovators</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="mt-8 bg-secondary-500 hover:bg-secondary-600 text-white px-6 py-3 rounded-full font-medium transition flex items-center">
+                            Reserve Your Seat <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
+                    <div class="md:w-1/2 bg-white p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Key Highlights</h3>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-star text-primary-500 mt-1 mr-3"></i>
+                                <div>
+                                    <p class="font-medium text-gray-900">100+ Industry Experts</p>
+                                    <p class="text-gray-600">Learn from the top digital transformation leaders</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-lightbulb text-primary-500 mt-1 mr-3"></i>
+                                <div>
+                                    <p class="font-medium text-gray-900">Exclusive Networking</p>
+                                    <p class="text-gray-600">Connect with peers and solution providers</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-rocket text-primary-500 mt-1 mr-3"></i>
+                                <div>
+                                    <p class="font-medium text-gray-900">Future Tech Demos</p>
+                                    <p class="text-gray-600">Experience cutting-edge innovations in action</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-3xl">
+            <div class="bg-white rounded-2xl p-8 shadow-md">
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Stay Updated with DT100</h3>
+                    <p class="text-gray-600 mb-6 max-w-lg mx-auto">
+                        Get the latest news, event updates and exclusive insights on UAE's digital transformation leaders
+                    </p>
+                </div>
+                <form class="max-w-lg mx-auto">
+                    <div class="flex">
+                        <input type="email" placeholder="Enter your email address" class="flex-grow px-4 py-3 rounded-l-lg border-t border-b border-l focus:outline-none focus:ring-2 focus:ring-primary-300">
+                        <button class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-r-lg font-medium transition">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">DT100 Summit</h4>
+                    <p class="text-gray-400 mb-4">
+                        The premier recognition of UAE's top digital transformation leaders driving innovation across all sectors.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Navigation</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#leaders" class="text-gray-400 hover:text-white transition">DT100 Leaders</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Event Agenda</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Partners</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Digital Transformation Reports</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Case Studies</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Industry Insights</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Speaker Presentations</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary-500"></i>
+                            <span>Dubai Media City, Dubai, UAE</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone mt-1 mr-3 text-primary-500"></i>
+                            <span>+971 4 123 4567</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-primary-500"></i>
+                            <span>info@digitransformationsummit.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-500">
+                <p>© 2025 Digital Transformation Summit UAE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 w-12 h-12 rounded-full bg-primary-500 text-white shadow-lg flex items-center justify-center transition transform hover:scale-105 hidden">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Filter and search functionality (placeholder for implementation)
+        document.querySelectorAll('.card').forEach((card, index) => {
+            // Add slight stagger to cards
+            card.style.animationDelay = `${index * 0.05}s`;
+        });
+    </script>
+</body>
+</html>

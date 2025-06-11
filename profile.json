@@ -1,0 +1,557 @@
+{
+    "title": "100 TECH LEADERS TO WATCH IN 2025",
+    "leaders": [
+      {
+        "name": "Ali Alhammadi",
+        "position": "Analytics & Data Science Section Head",
+        "organization": "Department of Government Enablement",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ali-alhammadi-6809df6716576.webp"
+      },
+      {
+        "name": "George Yacoub",
+        "position": "Chief Digital and Information Officer",
+        "organization": "Department of Health Abu Dhabi",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/george-yacoub-6809df7704433.webp"
+      },
+      {
+        "name": "Walid Elsahar",
+        "position": "Director Of Information Technology",
+        "organization": "Ras Al Khaimah Economic Zone (RAKEZ)",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/walid-elsahar-6809df58394b5.webp"
+      },
+      {
+        "name": "Abdalla Al Ali",
+        "position": "Director IT and Innovation",
+        "organization": "Dubai Multi Commodities Centre",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/abdalla-al-ali-680a0d6c0740b.webp"
+      },
+      {
+        "name": "Jacob Mathew",
+        "position": "Head of IT",
+        "organization": "Government Entity",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/jacob-mathew-6809df540a660.webp"
+      },
+      {
+        "name": "Shanaka Perera",
+        "position": "Head of IT",
+        "organization": "Ras Al Khaimah Tourism Developmenet Authority",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/shanaka-perera-6809df6480c9d.webp"
+      },
+      {
+        "name": "Fayid Kadambodan",
+        "position": "Assistant Director - Enterprise Solutions - Digital",
+        "organization": "Dubai Integrated Economic Zones Authority",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/fayid-kadambodan-680a0d81d3c4c.webp"
+      },
+      {
+        "name": "Mohamed Al Katheeri",
+        "position": "Vice President Digital",
+        "organization": "ADNOC Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mohamed-al-katheeri-6809df59999c4.webp"
+      },
+      {
+        "name": "Linoy Kidd",
+        "position": "GBM MENAT CIO",
+        "organization": "HSBC Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/linoy-kidd-680a0d9be65d4.webp"
+      },
+      {
+        "name": "Chenthil Kumar",
+        "position": "Head of Digital Transformation",
+        "organization": "Red Sea International - RSI , Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/chenthil-kumar-680a0db27dee8.webp"
+      },
+      {
+        "name": "Lenish Kannan",
+        "position": "CIO",
+        "organization": "Western International Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/lenish-kannan-6809df758a1f6.webp"
+      },
+      {
+        "name": "Siddharth Saxena",
+        "position": "CTO",
+        "organization": "Vision Bank Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/siddharth-saxena-680a0dca250cf.webp"
+      },
+      {
+        "name": "Shivendra Saxena",
+        "position": "Chief Information Security Officer",
+        "organization": "Emeritus",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/shivendra-saxena-6809df5c55c03.webp"
+      },
+      {
+        "name": "Hiren Desai",
+        "position": "Director of IT",
+        "organization": "Canadian Specialist Hospital United Arab Emirates",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/hiren-desai-6809df63400e3.webp"
+      },
+      {
+        "name": "Shirish Gupta",
+        "position": "Senior Director - Data Science",
+        "organization": "Emirates NBD",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/shirish-gupta-6809df7020eef.webp"
+      },
+      {
+        "name": "Ali katkhada",
+        "position": "Group CIO",
+        "organization": "Depa United Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ali-katkhada-6809df65c1616.webp"
+      },
+      {
+        "name": "Bejesh Pereira",
+        "position": "Group Head of IT",
+        "organization": "Scope Investment",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/bejesh-pereira-6809df5acb994.webp"
+      },
+      {
+        "name": "Imran Kannuti",
+        "position": "Head, Operations Digitalization & Transformation",
+        "organization": "Banque Misr UAE",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/imran-kannuti-6809df7b63c13.webp"
+      },
+      {
+        "name": "Ali Ibrahim Al Kaf Alhashmi",
+        "position": "Vice President – Cyber Security and Technology",
+        "organization": "Mubadala Investment",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ali-ibrahim-al-kaf-alhashmi-680a0de7e405a.webp"
+      },
+      {
+        "name": "Gyan Prakash Srivastava",
+        "position": "CDO || Head of Data & Analytics , Data governance , Finance Reporting Tech",
+        "organization": "Mashreq Bank Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/gyan-prakash-srivastava-680a0e19a0506.webp"
+      },
+      {
+        "name": "Nitin Bhandari",
+        "position": "SVP & Head of Payit Digital Wallet",
+        "organization": "First Abu Dhabi Bank (FAB)",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/nitin-bhandari-6809df53f1d82.webp"
+      },
+      {
+        "name": "Srinivas Valluri",
+        "position": "Senior Digital Transformation",
+        "organization": "Family Development Foundation",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/srinivas-valluri-6809df72c9d25.webp"
+      },
+      {
+        "name": "Mubarik Hussain",
+        "position": "IT Director",
+        "organization": "Distinguished Real Estate",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mubarik-hussain-6809df557566d.webp"
+      },
+      {
+        "name": "Bhawna Sajnani",
+        "position": "Chief Digital and Innovation Officer",
+        "organization": "GEMS Legacy School -Primary & Middle School",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/bhawna-sajnani-6809df6d824b8.webp"
+      },
+      {
+        "name": "Umesh Moolchandani",
+        "position": "Chief Information Officer",
+        "organization": "Bin Dasmal Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/umesh-moolchandini-680a0e369cadd.webp"
+      },
+      {
+        "name": "Syed Ali Naqvi",
+        "position": "Head of Technology - UAE Expansion",
+        "organization": "Revolut, Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/syed-ali-naqvi-6809df7188dff.webp"
+      },
+      {
+        "name": "Sreedhar Suragouni",
+        "position": "Chief Operations and Technology Officer",
+        "organization": "Sukoon Insurance",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/y-680b7640832c9.webp"
+      },
+      {
+        "name": "Hemen Khatri",
+        "position": "Head of IT",
+        "organization": "Salama Insurance",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/hemen-khatri-6809df69c2f7c.webp"
+      },
+      {
+        "name": "Obaid Ahmed",
+        "position": "Head of - System Management and IT Strategy",
+        "organization": "Sharjah Islamic Bank",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/obaid-ahmed-6809df6c49920.webp"
+      },
+      {
+        "name": "Jayakumar Ganesan",
+        "position": "Head of Service, Digital Platforms",
+        "organization": "First Abu Dhabi Bank",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/jayakumar-ganesan-680a0e4f3b565-1.webp"
+      },
+      {
+        "name": "Saju Sivaji",
+        "position": "VP / Enterprise Security Architect",
+        "organization": "RAKBANK",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/saju-sivaji-680a0e8333800.webp"
+      },
+      {
+        "name": "Luqman Kondeth",
+        "position": "Director, Campus Technology Security Services",
+        "organization": "New York University Abu Dhabi",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/luqman-kondeth-680a0e9b0f43a.webp"
+      },
+      {
+        "name": "Ahmed Fayez",
+        "position": "Associate Director - Digital Experiences",
+        "organization": "Dubai Holding , Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ahmed-fayez-6809df6d917b1.webp"
+      },
+      {
+        "name": "Dr. Shijin Prasad. R.S",
+        "position": "Director of Information Technology",
+        "organization": "Cure Medical Centers & Pharmacy, Al Nokhba Medical Center",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/dr-shijin-prasad-r-680a0eb97dfea.webp"
+      },
+      {
+        "name": "Seif Aldin Abdulkarim",
+        "position": "Group IT head",
+        "organization": "Amina Health Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/seif-aldin-abdulkarim-6809df7a299cb.webp"
+      },
+      {
+        "name": "Abdulrahman Khaiwi",
+        "position": "Head of IT Department",
+        "organization": "Emirates National Schools",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/abdulrahman-khaiwi-6809df5f1a506.webp"
+      },
+      {
+        "name": "Naushad Mohammed",
+        "position": "Director - IT",
+        "organization": "Reem Hospital",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/naushad-mohammed-680a0edaab8ce.webp"
+      },
+      {
+        "name": "Ahmed Farah",
+        "position": "Head of IT",
+        "organization": "Skyline International Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ahmed-farah-680a0f3e1e1d2.webp"
+      },
+      {
+        "name": "Ajith Cyriac Mathew",
+        "position": "Associate Director Information Technology",
+        "organization": "Aldar Estates",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ajith-cyriac-mathew-6809df5ad4136.webp"
+      },
+      {
+        "name": "Sher Ali",
+        "position": "Associate Director - Data and AI",
+        "organization": "Majid Al Futtaim",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/sher-ali-6809df6c526d7.webp"
+      },
+      {
+        "name": "Arvind Gaba",
+        "position": "Head of IT || Deputy General Manager",
+        "organization": "Sharaf DG",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/arvind-gaba-680a0fa82a7ac.webp"
+      },
+      {
+        "name": "Ahmed Al Ahmed",
+        "position": "Executive IT Leader & Digital Transformation Strategist/ CIO",
+        "organization": "Nakheel",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ahmed-al-ahmed-6809df671ec80.webp"
+      },
+      {
+        "name": "Fady Sleiman",
+        "position": "Group Chief Information and Digital Officer",
+        "organization": "Albawani Holding",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/fady-sleiman-680a0fc1d86ea.webp"
+      },
+      {
+        "name": "Maher Al Kaabi",
+        "position": "Advisor to Group Chairman & Independent Board Member",
+        "organization": "Alserkal Group Dubai",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/maher-al-kaabi-6809df6b1525c.webp"
+      },
+      {
+        "name": "Rexi Abraham",
+        "position": "Head of Information Technology",
+        "organization": "Dubai Holding Community Management",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/rexi-abraham-680a0fe5d91c5.webp"
+      },
+      {
+        "name": "Mohamed Gamal Abdelmksou",
+        "position": "Chief Technology Officer",
+        "organization": "Pulse Holdings Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mohamed-gamal-abdelmksou-680a1143cf5b2.webp"
+      },
+      {
+        "name": "Aliasgar Bohari",
+        "position": "Senior Director Information Technology",
+        "organization": "Zulekha Hospital",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/aliasgar-bohari-6809df741265a.webp"
+      },
+      {
+        "name": "Mohammed H. AlAbbadi",
+        "position": "Group CISO",
+        "organization": "Fertiglobe",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mohammed-h-alabbadi-680a11602fb1a.webp"
+      },
+      {
+        "name": "Shivathanoo Pillai",
+        "position": "Head of Digital Transformation Delivery",
+        "organization": "Edge Group PJSC",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/shivathanoo-pillai-6809df787ca69.webp"
+      },
+      {
+        "name": "Georges de Moura",
+        "position": "Group Vice President & CISO",
+        "organization": "EDGE Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/georges-de-moura-680a11771f31d.webp"
+      },
+      {
+        "name": "Husam Mahmoud",
+        "position": "Vice President-IT",
+        "organization": "Abu Dhabi National Hotels",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/husam-mahmoud-680a118bbc6b6.webp"
+      },
+      {
+        "name": "Haytham Mabrouk",
+        "position": "Head of IT",
+        "organization": "Alcon Services AG - Dubai HQ",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/haytham-mabrouk-6809df6078993.webp"
+      },
+      {
+        "name": "Tamer Hamed",
+        "position": "Chief Information Officer",
+        "organization": "Dubai Cable Company - Ducab",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/tamer-hamed-680a119eb4d23.webp"
+      },
+      {
+        "name": "Ahmad Hafez",
+        "position": "Corporate Director IT",
+        "organization": "Jannah Hotels & Resorts",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ahmad-hafez-6809df72b1baa.webp"
+      },
+      {
+        "name": "Carly Abbott",
+        "position": "VP IT Product and Delivery",
+        "organization": "Emirates Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/carly-abbott-6809df570c165.webp"
+      },
+      {
+        "name": "Mohamad Al Agha",
+        "position": "Director – Digital & Smart Solutions",
+        "organization": "Abu Dhabi Ports Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mohamad-al-agha-6809df648a3ae.webp"
+      },
+      {
+        "name": "Haris Basheer",
+        "position": "Director of IT",
+        "organization": "Conrad Abu Dhabi Etihad Towers",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/haris-basheer-680a11b5c0d97.webp"
+      },
+      {
+        "name": "Mohammad Qatash",
+        "position": "Corporate Associate Director IT",
+        "organization": "Aldar Hospitality",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mohammad-qatash-6809df758df4a.webp"
+      },
+      {
+        "name": "Nisha Rani",
+        "position": "Chief Information Security Officer",
+        "organization": "Emirates Leisure Retail",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/nisha-rani-6809df7889caf.webp"
+      },
+      {
+        "name": "Srinivasa Narasimhaiah",
+        "position": "IT Director",
+        "organization": "Julphar Gulf Pharmaceutical",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/srinivasa-narasimhaiah-6809df7420fa1.webp"
+      },
+      {
+        "name": "Sanjay Sharma",
+        "position": "Chief Technology Officer",
+        "organization": "Orascom Hotels Management",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/sanjay-sharma-680a11cb13826.webp"
+      },
+      {
+        "name": "Vikalp Shrivastava",
+        "position": "VP Technology and Security",
+        "organization": "Kerzner International",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/vikalp-shrivastava-6809df68624f4.webp"
+      },
+      {
+        "name": "Prabhakar Posam",
+        "position": "Group Chief Information Officer",
+        "organization": "Transworld Group of Companies",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/prabhakar-posam-6809df5f1dda3.webp"
+      },
+      {
+        "name": "Ramkumar Valliappan",
+        "position": "Cluster Director of IT",
+        "organization": "Marriott International",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ramkumar-valliappan-680a11dcc6490.webp"
+      },
+      {
+        "name": "Riasat Ali",
+        "position": "Group Head of IT",
+        "organization": "RAK PORTS",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/riasat-ali-6809df6865158.webp"
+      },
+      {
+        "name": "Arun Kumar Mohta",
+        "position": "Director of IT",
+        "organization": "FJ Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/arun-kumar-mohta-6809df6eca31c.webp"
+      },
+      {
+        "name": "Sourabh Shukla",
+        "position": "Head IT PMO",
+        "organization": "AW Rostamani Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/sourabh-shukla-680a11f321024.webp"
+      },
+      {
+        "name": "Abdulrahman Albarguthi",
+        "position": "Sr. Director Digital & Technology Partnerships",
+        "organization": "Agthia PJSC",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/Abdulrahman-Al-Barguthi.png"
+      },
+      {
+        "name": "Abdul Aziz AlMarzooqi",
+        "position": "Sr. Vice President- Information Technology",
+        "organization": "Global Aerospace Logistics (GAL)",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/abdul-aziz-almarzooqi-6809df5d9f3b9.webp"
+      },
+      {
+        "name": "Sheikh Muhammad Hafeez",
+        "position": "Director IT, MENA",
+        "organization": "Del Monte Foods UAE",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/sheikh-muhammad-hafeez-680a1247337d7.webp"
+      },
+      {
+        "name": "Sri Lakshmi",
+        "position": "Group Chief Information Officer",
+        "organization": "Switz Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/sri-lakshmi-6809df7710ddd.webp"
+      },
+      {
+        "name": "Ehtisham Syed",
+        "position": "Executive Director IT",
+        "organization": "Falconpack",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ehtisham-syed-680a125bc9bbf.webp"
+      },
+      {
+        "name": "Goutam Pudota",
+        "position": "Director - Global Infrastructure & Information Security",
+        "organization": "IFFCO Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/goutam-pudota-6809df6b0e868.webp"
+      },
+      {
+        "name": "Chacko Varkey",
+        "position": "Group IT Head",
+        "organization": "Dubai Auto Gallery LLC",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/chacko-varkey-6809df7b3a36f.webp"
+      },
+      {
+        "name": "Amal Al Khadra",
+        "position": "Head of Digital Transformation",
+        "organization": "Elite Group Holding",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/amal-al-khadra-6809df69b6454.webp"
+      },
+      {
+        "name": "Manish Agarwal",
+        "position": "Chief Information Officer",
+        "organization": "M.H. Enterprises L.L.C",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/manish-agarwal-6809df55826a0.webp"
+      },
+      {
+        "name": "Prasad Sali",
+        "position": "Head of IT MENA & Asia -Digital Strategic Initiatives | Liberty Steel Group | GFGAlliance UAE",
+        "organization": "LIBERTY Steel Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/prasad-sali-680a127b3f0f6.webp"
+      },
+      {
+        "name": "Ouhichi Rami",
+        "position": "Cluster Director of Information Technology",
+        "organization": "Rotana Hotel Management Corporation PJSC",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ouhichi-rami-6809df597b9df.webp"
+      },
+      {
+        "name": "Reem J",
+        "position": "IT Regional Director - Middle East, Africa, Turkey and Pakistan",
+        "organization": "Abbott",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/reem-j-680a1293f332b.webp"
+      },
+      {
+        "name": "Dr. Mallikarjuna Ramanujaiah",
+        "position": "Head of IT Department",
+        "organization": "ART Fertility Clinics",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/dr-mallikarjuna-ramanujaiah-680a12a95f164.webp"
+      },
+      {
+        "name": "Sarfaraz Muneer",
+        "position": "Vice President Cyber Security Assurance",
+        "organization": "Mubadala",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/sarfaraz-muneer-6809df65ca354.webp"
+      },
+      {
+        "name": "VISHAL KAPIL",
+        "position": "Group CTO",
+        "organization": "Mair Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/vishal-kapil-6809df702d8ff.webp"
+      },
+      {
+        "name": "Neha Powar",
+        "position": "AVP - Digital Transformation",
+        "organization": "Citi",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/neha-power-680a12c6abac1.webp"
+      },
+      {
+        "name": "Shaytel Patel",
+        "position": "Group SVP Technology & Cyber Audit",
+        "organization": "DP World",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/shetal-patel-680a12fcbb4a9.webp"
+      },
+      {
+        "name": "Gigi Mathew Thomas",
+        "position": "Group Director - IT & Digital Transformation",
+        "organization": "Ittihad International Investment LLC",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/gigi-mathew-thomas-6809df717a516.webp"
+      },
+      {
+        "name": "Vippon Kumar",
+        "position": "Regional IT Director",
+        "organization": "Plaza Premium Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/vippon-kumar-6809df79dbff3.webp"
+      },
+      {
+        "name": "Mohit Duggar",
+        "position": "Director of Information Technology",
+        "organization": "Millennium Hotels & Resorts",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mohit-duggar-6809df584e64e.webp"
+      },
+      {
+        "name": "Bassem Al-Wazir",
+        "position": "Group Director of Information Technology",
+        "organization": "National Food Products Company (NFPC), UAE",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/bassem-al-wazir-680a13172b878.webp"
+      },
+      {
+        "name": "Mihaela Alexe",
+        "position": "Chief Information Officer",
+        "organization": "Mars Snacking  Middle East & Africa",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mihaela-alexe-680a132d302da.webp"
+      },
+      {
+        "name": "Michael Vessey",
+        "position": "Chief Data Officer",
+        "organization": "Central Bank of The UAE",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/michael-vessey-6809df61e28ee.webp"
+      },
+      {
+        "name": "Ashish Pandey",
+        "position": "Head IT Aster Retail / CIO Aster Pharmacy",
+        "organization": "Aster Retail and Aster Pharmacy",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/ashish-pandey-6809df5c47e03.webp"
+      },
+      {
+        "name": "Mario Foster",
+        "position": "Group Chief Information Officer",
+        "organization": "Al Ghurair Group",
+        "image": "https://digitransformationsummit.com/uae/wp-content/uploads/2025/04/mario-foster-6809df5dc1ca5.webp"
+      }
+    ]
+  }
