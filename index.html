@@ -125,6 +125,17 @@
         .dark .awards-logo {
             filter: brightness(1.2) contrast(1.1) drop-shadow(0 0 8px rgba(255, 215, 0, 0.2));
         }
+        
+        /* Video background styling */
+        .hero-video {
+            min-height: 100vh;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-video video {
+                object-position: center;
+            }
+        }
     </style>
 </head>
 <body>
@@ -158,8 +169,17 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="section-spacing" style="background-color: #0927d7;">
-        <div class="container mx-auto px-6">
+    <section class="section-spacing relative overflow-hidden">
+        <!-- Video Background -->
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+            <source src="https://w.media/wp-content/uploads/2024/12/newawards.mp4" type="video/mp4">
+        </video>
+        
+        <!-- Black Overlay with Gradient -->
+        <div class="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/80"></div>
+        
+        <!-- Content -->
+        <div class="container mx-auto px-6 relative z-10">
             <div class="text-center max-w-4xl mx-auto">
                 <div class="inline-flex items-center bg-white/20 rounded-sm px-4 py-2 mb-6">
                     <i class="fas fa-award text-white mr-2"></i>
