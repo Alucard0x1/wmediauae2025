@@ -177,6 +177,13 @@
         @media (min-width: 769px) {
             .slider-arrow { display: none !important; }
         }
+        
+        /* Fix for gradient text descenders being cut off */
+        .gradient-text-fix {
+            line-height: 1.2;
+            padding-bottom: 0.2em;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -547,7 +554,7 @@
                 <!-- Main heading -->
                 <h2 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
                     Be Part of the
-                    <span class="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-yellow-400 dark:to-orange-400 bg-clip-text text-transparent block">
+                    <span class="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-yellow-400 dark:to-orange-400 bg-clip-text text-transparent block gradient-text-fix">
                         Recognition Journey
                     </span>
                 </h2>
