@@ -132,6 +132,51 @@
                 object-position: center;
             }
         }
+        
+        /* Nominee slider styles for mobile */
+        @media (max-width: 768px) {
+            #nomineesSliderWrapper {
+                position: relative;
+            }
+            #nomineesGrid {
+                display: flex !important;
+                flex-direction: row;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                -webkit-overflow-scrolling: touch;
+                gap: 1.25rem; /* 20px, matches gap-5 */
+                padding-bottom: 8px;
+            }
+            #nomineesGrid .card-nominee {
+                min-width: 85vw;
+                max-width: 85vw;
+                flex: 0 0 85vw;
+                scroll-snap-align: start;
+            }
+            .slider-arrow {
+                display: flex;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 10;
+                background: rgba(0,0,0,0.5);
+                color: #eab308;
+                border: none;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                align-items: center;
+                justify-content: center;
+                font-size: 1.5rem;
+                cursor: pointer;
+                transition: background 0.2s;
+            }
+            .slider-arrow.left { left: 0.5rem; }
+            .slider-arrow.right { right: 0.5rem; }
+        }
+        @media (min-width: 769px) {
+            .slider-arrow { display: none !important; }
+        }
     </style>
 </head>
 <body>
@@ -456,34 +501,35 @@
             <div class="text-center mb-12">
                 <div class="inline-flex items-center bg-white/20 rounded-sm px-4 py-2 mb-4">
                     <span class="text-white font-semibold text-sm">AWARD NOMINEES</span>
-                            </div>
+                </div>
                 <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
                     Meet the <span class="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">Outstanding Nominees</span>
                 </h2>
                 <p class="text-lg text-white/90 max-w-3xl mx-auto mb-8 leading-relaxed">
                     Exceptional leaders driving innovation and transformation across the UAE's most influential organizations
                 </p>
-                
                 <!-- Search -->
                 <div class="max-w-md mx-auto mb-8">
                     <div class="relative">
                         <input type="text" id="searchInput" placeholder="Search nominees..." class="w-full py-3 px-4 pr-10 rounded-sm border border-white/30 bg-white/10 text-white placeholder-white/70 focus:outline-none focus:border-white focus:ring-1 focus:ring-white focus:bg-white/20">
                         <i class="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-white/70"></i>
-                        </div>
                     </div>
                 </div>
-                
-            <!-- Nominees Grid -->
-            <div id="nomineesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-                <!-- Nominees will be loaded here -->
             </div>
-
+            <!-- Nominees Slider Wrapper -->
+            <div id="nomineesSliderWrapper" class="relative">
+                <button class="slider-arrow left" id="sliderLeft" aria-label="Scroll left"><i class="fas fa-chevron-left"></i></button>
+                <div id="nomineesGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+                    <!-- Nominees will be loaded here -->
+                </div>
+                <button class="slider-arrow right" id="sliderRight" aria-label="Scroll right"><i class="fas fa-chevron-right"></i></button>
+            </div>
             <!-- Load More Button -->
             <div class="text-center mt-12">
                 <button id="loadMoreBtn" class="bg-white hover:bg-gray-100 text-blue-700 px-6 py-3 rounded-sm font-semibold transition-all hover:shadow-lg" style="display: none;">
                     <i class="fas fa-plus mr-2"></i>
                     Load More Nominees
-                    </button>
+                </button>
             </div>
         </div>
     </section>
@@ -937,6 +983,20 @@
             }
         }
 
+        // Slider arrow navigation for mobile
+        function setupSliderArrows() {
+            const grid = document.getElementById('nomineesGrid');
+            const left = document.getElementById('sliderLeft');
+            const right = document.getElementById('sliderRight');
+            if (!grid || !left || !right) return;
+            left.addEventListener('click', () => {
+                grid.scrollBy({ left: -grid.offsetWidth * 0.8, behavior: 'smooth' });
+            });
+            right.addEventListener('click', () => {
+                grid.scrollBy({ left: grid.offsetWidth * 0.8, behavior: 'smooth' });
+            });
+        }
+
         // Initialize everything when DOM is loaded
         document.addEventListener('DOMContentLoaded', () => {
             loadProfileData(); // This will call loadNominees() after data is fetched
@@ -946,6 +1006,7 @@
             
             // Load avatars after a short delay to ensure data is loaded
             setTimeout(loadAvatars, 500);
+            setupSliderArrows();
         });
     </script>
 </body>
